@@ -5,7 +5,7 @@ if [ -z "$1" ]; then
         exit 1
 fi
 
-fin = $(pwd)
+fin=$(pwd)
 
 if [ -z "$SKIP_DEPS" ]; then
         sudo apt update
